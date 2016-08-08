@@ -29,11 +29,11 @@ Partial Class GIFPlayer
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(38, 226)
+        Me.Button1.Location = New System.Drawing.Point(206, 12)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.Size = New System.Drawing.Size(75, 336)
         Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Button1"
+        Me.Button1.Text = "开始"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'PictureBox1
@@ -41,7 +41,7 @@ Partial Class GIFPlayer
         Me.PictureBox1.Image = Global.GIF_Player.My.Resources.Resource.GIFTest
         Me.PictureBox1.Location = New System.Drawing.Point(0, 0)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(231, 220)
+        Me.PictureBox1.Size = New System.Drawing.Size(200, 360)
         Me.PictureBox1.TabIndex = 1
         Me.PictureBox1.TabStop = False
         '
@@ -49,7 +49,7 @@ Partial Class GIFPlayer
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(290, 266)
+        Me.ClientSize = New System.Drawing.Size(290, 360)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Button1)
         Me.Name = "GIFPlayer"
